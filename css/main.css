@@ -253,7 +253,11 @@ body {
   background-color: #ffffff;
 }
 
-a,
+a {
+  color: #212121;
+  text-decoration: none;
+}
+
 a:visited {
   color: #212121;
   text-decoration: none;
@@ -285,7 +289,7 @@ span {
   padding: 0;
 }
 
-.link-nav, .link-nav.nav-contacts, .contacts-icon-mail, .contacts-icon-phone, .soclink, .soclink-bg, .client-link, .client-icon1, .client-icon2, .client-icon3, .client-icon4, .client-icon5, .client-icon6, .backdrop, .modal, .is-hidden, .btn-portfolio, .card-style-portfolio, .animation-overlay {
+.link-nav, .link-nav.nav-contacts, .contacts-icon-mail, .contacts-icon-phone, .soclink, .soclink-bg, .client-link, .client-icon1, .client-icon2, .client-icon3, .client-icon4, .client-icon5, .client-icon6, .footer-soclink-bg, .backdrop, .modal, .is-hidden, .btn-portfolio, .card-style-portfolio, .animation-overlay {
   -webkit-transition: 250ms;
   transition: 250ms;
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -847,21 +851,16 @@ span {
   height: 44px;
   border-radius: 50%;
   background: rgba(255, 255, 255, 0.1);
-  -webkit-transition: 250ms;
-  transition: 250ms;
-  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-soclink-bg:hover, .footer-soclink-bg:focus {
+  background-color: #2196f3;
 }
 
 .footer-soclink {
   width: 20px;
   height: 20px;
   fill: #ffffff;
-}
-
-.footer-soclink-bg:hover,
-.footer-soclink-bg:focus {
-  background-color: #2196f3;
 }
 
 .subscribe {
@@ -1024,11 +1023,6 @@ span {
   color: #757575;
 }
 
-.form-input:focus {
-  border: 1px solid #2196f3;
-  outline: none;
-}
-
 .form-input:focus + .icon-form {
   fill: #2196f3;
 }
@@ -1041,6 +1035,11 @@ span {
   border-radius: 4px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+}
+
+.form-input:focus {
+  border: 1px solid #2196f3;
+  outline: none;
 }
 
 .form-textarea {
@@ -1274,16 +1273,16 @@ span {
   margin-bottom: 30px;
 }
 
-.wrap > li:not(:nth-of-type(3n - 5)) {
-  margin-left: 30px;
-}
-
 .wrap {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+}
+
+.wrap > li:not(:nth-of-type(3n - 5)) {
+  margin-left: 30px;
 }
 
 /* Overlay*/

@@ -43,10 +43,10 @@
 
 .link-footer{
   line-height: 24px;
-}
 
-.link-footer:not(:last-child) {
-  margin-bottom: 9px;
+  &:not(:last-child) {
+    margin-bottom: 9px;
+  }
 }
 
 // Soclink
@@ -74,11 +74,12 @@
 .footer-soclinks {
   display: flex;
   margin-top: 20px;
+
+  li:not(:last-child) {
+    margin-right: 10px;
+  }
 }
 
-.footer-soclinks li:not(:last-child) {
-  margin-right: 10px;
-}
 
 .footer-soclink-bg {
   display: inline-block;
@@ -88,19 +89,18 @@
   border-radius: 50%;
   background: rgba(255, 255, 255, 0.1);
 
-  transition: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  @extend %hover-animation;
+
+  &:hover,
+  &:focus {
+    background-color: $accent-page-color;  
+  }
 }
 
 .footer-soclink {
   width: 20px;
   height: 20px;
   fill: $main-page-color;
-}
-
-.footer-soclink-bg:hover,
-.footer-soclink-bg:focus {
-  background-color: $accent-page-color;  
 }
 
 // Subscribe

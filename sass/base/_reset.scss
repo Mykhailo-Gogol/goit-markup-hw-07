@@ -1,12 +1,16 @@
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: $main-font-family;
   background-color: $main-page-color;
 }
 
-a,
-a:visited {
+a {
   color: $secondary-text-color;
   text-decoration: none;
+
+  &:visited {
+    color: $secondary-text-color;
+    text-decoration: none;
+  }
 }
 
 ul {
