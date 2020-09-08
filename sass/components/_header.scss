@@ -22,8 +22,7 @@
   letter-spacing: 0.02em;
   color: $secondary-text-color;
 
-  transition: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  @extend %hover-animation;
 
   &:hover,
   &:focus {
@@ -31,12 +30,11 @@
   }
 }
 
-.nav-contacts {
+.link-nav.nav-contacts {
   margin: auto;
   color: $main-text-color;
 
-  transition: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  @extend %hover-animation;
 
 
   &:hover,
@@ -123,8 +121,7 @@
   fill:#757575;
   margin-right: 10px;
 
-  transition: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  @extend %hover-animation;
 }
 
 .contacts-icon-phone {
@@ -134,8 +131,7 @@
   fill:#757575;
   margin-right: 10px;
 
-  transition: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  @extend %hover-animation;
 }
 
 // Nav Underline
@@ -150,9 +146,12 @@
   margin-top: 28px;
  }
 
- .link-nav {
-  .link-studio,
-  .link-portfolio {
-   color: #2196F3;
-  }
+//  Current Link
+ 
+.link-nav.link-studio {
+  color: #2196F3;
+}
+
+.link-nav.link-portfolio {
+  color: #2196F3;
 }
