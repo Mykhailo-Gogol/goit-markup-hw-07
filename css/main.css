@@ -250,7 +250,7 @@ summary {
 
 body {
   font-family: "Roboto", sans-serif;
-  background-color: #fff;
+  background-color: #ffffff;
 }
 
 a,
@@ -285,7 +285,7 @@ span {
   padding: 0;
 }
 
-.link-nav, .link-nav.nav-contacts, .contacts-icon-mail, .contacts-icon-phone, .soclink, .soclink-bg, .client-link, .client-icon1, .client-icon2, .client-icon3, .client-icon4, .client-icon5, .client-icon6, .card-style-portfolio, .animation-overlay {
+.link-nav, .link-nav.nav-contacts, .contacts-icon-mail, .contacts-icon-phone, .soclink, .soclink-bg, .client-link, .client-icon1, .client-icon2, .client-icon3, .client-icon4, .client-icon5, .client-icon6, .backdrop, .modal, .is-hidden, .btn-portfolio, .card-style-portfolio, .animation-overlay {
   -webkit-transition: 250ms;
   transition: 250ms;
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -386,15 +386,15 @@ span {
 }
 
 .contacts-flex:hover .contacts-icon-mail {
-  fill: #2196F3;
+  fill: #2196f3;
 }
 
 .contacts-flex:hover .nav-contacts {
-  color: #2196F3;
+  color: #2196f3;
 }
 
 .contacts-flex:hover .contacts-icon-phone {
-  fill: #2196F3;
+  fill: #2196f3;
 }
 
 .contacts-icon-mail {
@@ -418,17 +418,17 @@ span {
   content: '';
   width: 100%;
   height: 4px;
-  background: #2196F3;
+  background: #2196f3;
   border-radius: 2px;
   margin-top: 28px;
 }
 
 .link-nav.link-studio {
-  color: #2196F3;
+  color: #2196f3;
 }
 
 .link-nav.link-portfolio {
-  color: #2196F3;
+  color: #2196f3;
 }
 
 .h1-hero {
@@ -561,7 +561,7 @@ span {
   text-align: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #FFFFFF;
+  color: #ffffff;
   background: rgba(47, 48, 58, 0.8);
 }
 
@@ -642,7 +642,7 @@ span {
 }
 
 .soclink-style-hover:hover .soclink {
-  fill: #fff;
+  fill: #ffffff;
 }
 
 .soclink-bg {
@@ -826,7 +826,7 @@ span {
   font-size: 14px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .footer-soclinks {
@@ -856,12 +856,12 @@ span {
 .footer-soclink {
   width: 20px;
   height: 20px;
-  fill: #fff;
+  fill: #ffffff;
 }
 
 .footer-soclink-bg:hover,
 .footer-soclink-bg:focus {
-  background-color: #2196F3;
+  background-color: #2196f3;
 }
 
 .subscribe {
@@ -877,7 +877,7 @@ span {
   line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #FFFFFF;
+  color: #ffffff;
   margin-bottom: 20px;
   display: inline-block;
 }
@@ -905,7 +905,7 @@ span {
   width: 200px;
   height: 50px;
   display: inline-block;
-  background: #2196F3;
+  background: #2196f3;
   -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
           box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
@@ -924,13 +924,13 @@ span {
   display: flex;
   letter-spacing: 0.06em;
   text-align: center;
-  color: #FFFFFF;
+  color: #ffffff;
   margin-left: 12px;
 }
 
 .icon-send {
   display: inline-block;
-  fill: #fff;
+  fill: #ffffff;
   width: 24px;
   height: 24px;
   margin-left: 10px;
@@ -944,10 +944,6 @@ span {
   height: 100%;
   background: rgba(0, 0, 0, 0.2);
   z-index: 1;
-  -webkit-transition: 250ms;
-  transition: 250ms;
-  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal {
@@ -958,30 +954,22 @@ span {
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  background: #FFFFFF;
+  background: #ffffff;
   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
-  -webkit-transition: 250ms;
-  transition: 250ms;
-  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .is-hidden {
   visibility: hidden;
   opacity: 0;
   pointer-events: none;
-  -webkit-transition: 250ms;
-  transition: 250ms;
-  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .close-btn {
   width: 30px;
   height: 30px;
-  background: #FFFFFF;
+  background: #ffffff;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
   float: right;
@@ -995,8 +983,7 @@ span {
   vertical-align: auto;
 }
 
-.icon-close:hover,
-.icon-close:active {
+.icon-close:hover, .icon-close:focus {
   fill: #2196f3;
 }
 
@@ -1016,7 +1003,7 @@ span {
   font-size: 20px;
   letter-spacing: 0.03em;
   text-align: center;
-  color: var(--second-text-color);
+  color: #212121;
 }
 
 .form-flex {
@@ -1034,11 +1021,11 @@ span {
   font-size: 12px;
   letter-spacing: 0.01em;
   line-height: 14px;
-  color: var(--main-text-color);
+  color: #757575;
 }
 
 .form-input:focus {
-  border: 1px solid #2196F3;
+  border: 1px solid #2196f3;
   outline: none;
 }
 
@@ -1067,7 +1054,7 @@ span {
 }
 
 .form-textarea:focus {
-  border: 1px solid #2196F3;
+  border: 1px solid #2196f3;
   outline: none;
 }
 
@@ -1106,11 +1093,11 @@ span {
   letter-spacing: 0.03em;
   -webkit-text-decoration-line: underline;
           text-decoration-line: underline;
-  color: #2196F3;
+  color: #2196f3;
 }
 
 .a-checkbox:visited {
-  color: #2196F3;
+  color: #2196f3;
 }
 
 .field {
@@ -1149,7 +1136,7 @@ span {
 
 .checkbox:checked + .icon {
   border-color: transparent;
-  background-color: #2196F3;
+  background-color: #2196f3;
   background-image: url("../IMG/svg/icon-check.svg");
   background-size: contain;
   background-origin: border-box;
@@ -1162,7 +1149,7 @@ span {
   margin-right: auto;
   display: inline-block;
   width: 200px;
-  background: #2196F3;
+  background: #2196f3;
   height: 50px;
   border-radius: 4px;
   -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -1175,7 +1162,7 @@ span {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .icon-field {
@@ -1229,10 +1216,6 @@ span {
   border-color: #f5f4fa;
   border-radius: 4px;
   border-style: hidden;
-  -webkit-transition: 250ms;
-  transition: 250ms;
-  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .btn-portfolio:hover, .btn-portfolio:focus {
@@ -1322,7 +1305,7 @@ span {
   letter-spacing: 0.03em;
   margin: 0;
   padding: 63px 24px;
-  color: #FFFFFF;
+  color: #ffffff;
   background: rgba(33, 150, 243, 0.9);
   pointer-events: none;
 }

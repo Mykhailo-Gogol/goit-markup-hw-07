@@ -9,7 +9,7 @@
 }
 
 .color-logo {
-  color: #2196f3;
+  color: $accent-page-color;
 }
 
 .link-nav {
@@ -26,7 +26,7 @@
 
   &:hover,
   &:focus {
-  color: #2196f3;  
+  color: $accent-page-color;  
   }
 }
 
@@ -39,7 +39,7 @@
 
   &:hover,
   &:focus {
-  color: #2196f3;
+  color: $accent-page-color;
   }
 }
 
@@ -91,19 +91,19 @@
 
 .contacts-icon-mail  {
   .contacts-flex:hover & {
-  fill: #2196F3;
+  fill: $accent-page-color;
   }
 }
 
 .nav-contacts {
   .contacts-flex:hover & {
-  color: #2196F3; 
+  color: $accent-page-color; 
   }
 }
 
 .contacts-icon-phone {
   .contacts-flex:hover & {
-  fill: #2196F3; 
+  fill: $accent-page-color; 
   }
 }
 
@@ -134,7 +134,7 @@
   content: '';
   width: 100%;
   height: 4px;
-  background: #2196F3;
+  background: $accent-page-color;
   border-radius: 2px;
   margin-top: 28px;
  }
@@ -142,9 +142,9 @@
 //  Current Link
  
 .link-nav.link-studio {
-  color: #2196F3;
+  color: $accent-page-color;
 }
 
 .link-nav.link-portfolio {
-  color: #2196F3;
+  color: $accent-page-color;
 }

@@ -47,7 +47,7 @@
   padding-top: 94px;
   padding-bottom: 94px;
   margin: auto;
-  background: #f5f4fa;
+  background: $secondary-page-color;
 }
 
 .h2-team {
@@ -79,13 +79,13 @@
 
 .soclink-bg {
   .soclink-style-hover:hover &{
-  background-color: #2196f3; 
+  background-color: $accent-page-color; 
   }
 }
 
 .soclink { 
   .soclink-style-hover:hover &{
-  fill: #fff; 
+  fill: $main-page-color; 
     }
 }
 

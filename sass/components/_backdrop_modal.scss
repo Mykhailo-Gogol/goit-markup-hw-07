@@ -9,8 +9,7 @@
   background: rgba(0, 0, 0, 0.2);
   z-index: 1;
 
-  transition: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  @extend %hover-animation;
 }
 
 .modal {
@@ -20,12 +19,11 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background: #FFFFFF;
+  background: $main-page-color;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
 
-  transition: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  @extend %hover-animation;
 }
 
 .is-hidden {
@@ -33,14 +31,13 @@
   opacity: 0;
   pointer-events: none;
 
-  transition: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  @extend %hover-animation;
 }
 
 .close-btn {
   width: 30px;
   height: 30px;
-  background: #FFFFFF;
+  background: $main-page-color;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
   float: right;
@@ -54,12 +51,13 @@
   width: 18px;
   height: 18px;
   vertical-align: auto; 
+  &:hover,
+  &:focus {
+    fill: $accent-page-color;
+  }
 }
 
-.icon-close:hover,
-.icon-close:active {
-  fill: #2196f3;
-}
+
 
 .form-cont {
   width: 448px;
@@ -79,7 +77,7 @@
   letter-spacing: 0.03em;
   text-align: center;
 
-  color: var(--second-text-color);
+  color: $secondary-text-color;
 }
 
 .form-flex {
@@ -93,16 +91,16 @@
   letter-spacing: 0.01em;
   line-height: 14px;
 
-  color: var(--main-text-color);
+  color: $main-text-color;
 }
 
 .form-input:focus {
-  border: 1px solid #2196F3;
+  border: 1px solid $accent-page-color;
   outline:none;
 }
 
 .form-input:focus + .icon-form {
-  fill: #2196f3;
+  fill: $accent-page-color;
 }
 
 .form-input {
@@ -124,7 +122,7 @@
 }
 
 .form-textarea:focus {
-  border: 1px solid #2196F3;
+  border: 1px solid $accent-page-color;
   outline:none;
 }
 
@@ -143,11 +141,11 @@
   letter-spacing: 0.03em;
   text-decoration-line: underline;
 
-  color: #2196F3;
+  color: $accent-page-color;
 }
 
 .a-checkbox:visited {
-  color: #2196F3;
+  color: $accent-page-color;
 }
 
 .field {
@@ -182,7 +180,7 @@
 
 .checkbox:checked + .icon {
   border-color: transparent;
-  background-color: #2196F3;
+  background-color: $accent-page-color;
   background-image: url('../IMG/svg/icon-check.svg');
   background-size: contain;
   background-origin: border-box;
@@ -198,7 +196,7 @@
   margin-right: auto;
   display: inline-block;
   width: 200px;
-  background: #2196F3;
+  background: $accent-page-color;
   height: 50px;
   border-radius: 4px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -210,7 +208,7 @@
   letter-spacing: 0.06em;
   align-items: center;
 
-  color: #FFFFFF;
+  color: $main-page-color;
 }
 
 .icon-field {
