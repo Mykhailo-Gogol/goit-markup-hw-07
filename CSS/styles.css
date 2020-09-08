@@ -92,17 +92,17 @@ span {
 
 /* Style Hero */
 
-.h1-hero {
+/* .h1-hero {
   font-size: 44px;
   font-weight: 900;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffffff;
-}
+} */
 
 /* Style Features */
 
-.h4-features {
+/* .h4-features {
   font-weight: 700;
   font-size: 14px;
   letter-spacing: 0.03em;
@@ -115,11 +115,11 @@ span {
   line-height: 24px;
   letter-spacing: 0.03em;
   color: var(--main-text-color);
-}
+} */
 
 /* Style Card */
 
-.card-name {
+/* .card-name {
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 0.03em;
@@ -130,11 +130,11 @@ span {
   font-size: 16px;
   letter-spacing: 0.03em;
   color: var(--main-text-color);
-}
+} */
 
 /* Style Footer */
 
-.color-logo-footer {
+/* .color-logo-footer {
   color: #ffffff;
 }
 
@@ -142,7 +142,14 @@ span {
   font-size: 14px;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
-}
+} */
+
+/* .address-footer {
+  font-style: normal;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+} */
 
 /* Style Portfolio.html */
 
@@ -165,12 +172,7 @@ span {
   color: var(--main-text-color);
 }
 
-.address-footer {
-  font-style: normal;
-  font-size: 14px;
-  letter-spacing: 0.03em;
-  color: #ffffff;
-}
+
 
 /* Containers and Flexbox*/
 
@@ -219,7 +221,7 @@ span {
 
 /* Hero */
 
-.hero {
+/* .hero {
   margin: auto;
   padding: 200px 0px 200px 0px;
 }
@@ -245,11 +247,11 @@ span {
   color: #ffffff;
   font-weight: 700;
   font-size: 16px;
-}
+} */
 
 /* Features */
 
-.features {
+/* .features {
   margin: auto;
   padding: 94px 0px 94px 0px;
 }
@@ -264,11 +266,11 @@ span {
 
 .ul-features > li > h4 {
   margin-bottom: 10px;
-}
+} */
 
 /* Product */
 
-.product {
+/* .product {
   margin: auto;
   padding-bottom: 94px;
 }
@@ -286,11 +288,11 @@ span {
 
 .ul-product > li:not(:first-child) {
   margin-left: 30px;
-}
+} */
 
 /* Team */
 
-.team {
+/* .team {
   padding-top: 94px;
   padding-bottom: 94px;
   margin: auto;
@@ -321,11 +323,11 @@ span {
 .card-desc {
   text-align: center;
   margin-bottom: 16px;
-}
+} */
 
 /* Footer */
 
-.footer {
+/* .footer {
   background: #2f303a;
   margin: auto;
   padding-bottom: 60px;
@@ -353,7 +355,7 @@ span {
 
 .link-footer:not(:last-child) {
   margin-bottom: 9px;
-}
+} */
 
 /* Portfolio.html */
 
@@ -450,7 +452,7 @@ span {
 
 /* Features */
 
-.bg-features {
+/* .bg-features {
   padding: 25px 100px;
   margin-bottom: 30px;
 
@@ -463,11 +465,11 @@ span {
 .icon-features {
   width: 70px;
   height: 70px;
-}
+} */
 
 /* Hero */
 
-.hero {
+/* .hero {
   background-image: linear-gradient(
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
@@ -475,7 +477,7 @@ span {
     url("../IMG/hero/Img.jpg");
   background-repeat: no-repeat;
   background-position: center;
-}
+} */
 
 /* Icons */
 
@@ -521,7 +523,7 @@ span {
 
 /* Soc-links */
 
-.card-soclinks {
+/* .card-soclinks {
   display: flex;
   margin: 0 32px 30px 32px;
 }
@@ -555,11 +557,11 @@ margin-right: 10px;
   border-radius: 50%;
   transition: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
 /* Clients */
 
-.clients {
+/* .clients {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -682,11 +684,11 @@ margin-right: 10px;
   width: 88px;
   height: 45px;
   fill:#afb1b8;
-}
+} */
 
 /* Footer Soclinks */
 
-.footer-flex {
+/* .footer-flex {
   display: flex;
 }
 
@@ -736,11 +738,11 @@ margin-right: 10px;
 .footer-soclink-bg:hover,
 .footer-soclink-bg:focus {
   background-color: #2196F3;  
-}
+} */
 
 /* Homework 5 Position */
 
-.product-position {
+/* .product-position {
   position: relative;
   width: 370px;
   height: 294px;
@@ -760,7 +762,7 @@ margin-right: 10px;
   text-transform: uppercase;
   color: #FFFFFF;
   background: rgba(47, 48, 58, 0.8);
- }
+ } */
 
  /* .link-nav.underline::after {
   display: block;
@@ -813,7 +815,7 @@ margin-right: 10px;
 
 /* Backdrop Modal */
 
-.backdrop {
+/* .backdrop {
   position: fixed;
   top: 0;
   left: 0;
@@ -859,11 +861,11 @@ margin-right: 10px;
   float: right;
   margin: 8px;
   padding: 5px;
-}
+} */
 
 /* Footer-subscribe */
 
-.subscribe {
+/* .subscribe {
   margin-left: 93px;
   margin-top: 12px;
   margin-bottom: 34px;
@@ -932,7 +934,7 @@ margin-right: 10px;
   width: 24px;
   height: 24px;
   margin-left: 10px;
-}
+} */
 
 /* Form */
 
