@@ -46,7 +46,7 @@ span {
 
 /* Style Nav*/
 
-.font-logo {
+/* .font-logo {
   font-family: "Raleway", sans-serif;
   text-decoration: none;
   font-weight: 700;
@@ -75,9 +75,9 @@ span {
 .link-nav:hover,
 .link-nav:focus {
   color: #2196f3;  
-}
+} */
 
-.link-nav.nav-contacts {
+/* .link-nav.nav-contacts {
   margin: auto;
   color: var(--main-text-color);
 
@@ -88,7 +88,7 @@ span {
 .nav-contacts:hover,
 .nav-contacts:focus {
   color: #2196f3;
-}
+} */
 
 /* Style Hero */
 
@@ -176,7 +176,7 @@ span {
 
 /* Header */
 
-.header {
+/* .header {
   height: 80px;
 }
 
@@ -215,7 +215,7 @@ span {
 
 .ul-contacts-container > li:not(:first-child) {
   margin-left: 30px;
-}
+} */
 
 /* Hero */
 
@@ -481,7 +481,7 @@ span {
 
 /* Contacts */
 
-.contacts-flex {
+/* .contacts-flex {
   display: flex;
 }
 
@@ -517,7 +517,7 @@ span {
 
   transition: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
 /* Soc-links */
 
@@ -762,7 +762,7 @@ margin-right: 10px;
   background: rgba(47, 48, 58, 0.8);
  }
 
- .link-nav.underline::after {
+ /* .link-nav.underline::after {
   display: block;
   content: '';
   width: 100%;
@@ -775,7 +775,7 @@ margin-right: 10px;
  .link-nav.link-studio,
  .link-nav.link-portfolio {
    color: #2196F3;
- }
+ } */
 
  /* Animation Card Portfolio */
 
@@ -1021,49 +1021,7 @@ margin-right: 10px;
   color: rgba(117, 117, 117, 0.5);
 }
 
-/* .chbox {
-  display: flex;
-  align-items: center;
-  margin-top: 20px;
-  margin-bottom: 30px;
-  padding: 0 10px;
-}
-
-.form-chbox {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-}
-
-.form-chbox:checked + .check-icon {
-  background-color: #2196F3;
-  border: none;
-  border-radius: 2px;
-}
-
-.check-icon {
-  border: 1px solid #212121;
-  display: block;
-  width: 15px;
-  height: 15px;
-  border-radius: 2px;
-}
-
-
-.chbox-lable {
-  margin-left: 8px;
-  font-size: 14px;
-  letter-spacing: 0.03em;
-  line-height: 24px;
-
-  color: var(--main-text-color);
-}
-
-.form-link,
-.form-link:visited {
-  text-decoration-line: underline;
-  color: #2196F3;
-} */
+/* Vanilla Checkbox */
 
 .a-checkbox {
   font-size: 14px;
@@ -1119,7 +1077,7 @@ margin-right: 10px;
 
 
 
-/* Btn */
+/* Btn Submit */
 .btn-submit {
   margin-top: 30px;
   margin-left: auto;
