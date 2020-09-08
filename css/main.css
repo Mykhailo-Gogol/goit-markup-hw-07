@@ -285,7 +285,7 @@ span {
   padding: 0;
 }
 
-.link-nav, .link-nav.nav-contacts, .contacts-icon-mail, .contacts-icon-phone, .soclink, .soclink-bg, .client-link, .client-icon1, .client-icon2, .client-icon3, .client-icon4, .client-icon5, .client-icon6 {
+.link-nav, .link-nav.nav-contacts, .contacts-icon-mail, .contacts-icon-phone, .soclink, .soclink-bg, .client-link, .client-icon1, .client-icon2, .client-icon3, .client-icon4, .client-icon5, .client-icon6, .card-style-portfolio, .animation-overlay {
   -webkit-transition: 250ms;
   transition: 250ms;
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -1190,5 +1190,146 @@ span {
           transform: translateY(-50%);
   width: 18px;
   height: 18px;
+}
+
+.portfolio {
+  border-top: 1px solid #eeeeee;
+  margin: auto;
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.filtres {
+  height: 44px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 34px;
+}
+
+.filtres > button:not(:first-child) {
+  margin-left: 8px;
+}
+
+.btn-portfolio-text {
+  padding: 6px 22px 6px 22px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.btn-portfolio {
+  color: #212121;
+  background: #f5f4fa;
+  border-color: #f5f4fa;
+  border-radius: 4px;
+  border-style: hidden;
+  -webkit-transition: 250ms;
+  transition: 250ms;
+  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.btn-portfolio:hover, .btn-portfolio:focus {
+  color: #ffffff;
+  background: #2196f3;
+  -webkit-box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+          box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+.card-name-portfolio {
+  margin-bottom: 4px;
+  padding: 0 24px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+
+.card-desc-portfolio {
+  margin-bottom: 20px;
+  padding: 0 24px;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+.projects {
+  margin: auto;
+}
+
+.img-contain {
+  width: 370px;
+}
+
+.card-border {
+  padding-top: 20px;
+  width: 370px;
+  background: #ffffff;
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
+}
+
+.card-style-portfolio {
+  width: 370px;
+}
+
+.card-style-portfolio:hover, .card-style-portfolio:focus {
+  -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+          box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
+.card-style-portfolio:not(.last-3) {
+  margin-bottom: 30px;
+}
+
+.wrap > li:not(:nth-of-type(3n - 5)) {
+  margin-left: 30px;
+}
+
+.wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+/* Overlay*/
+.text-overlay {
+  position: relative;
+  width: 370px;
+  height: 294px;
+}
+
+.animation-overlay {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0.03em;
+  margin: 0;
+  padding: 63px 24px;
+  color: #FFFFFF;
+  background: rgba(33, 150, 243, 0.9);
+  pointer-events: none;
+}
+
+.card-style-portfolio:hover .animation-overlay {
+  top: 0;
+  left: 0;
+  opacity: 0.9;
 }
 /*# sourceMappingURL=main.css.map */
