@@ -6,19 +6,19 @@
 @import './base/global';
 
 // Logo
-@import './components/logo';
+@import './components_index/pageLogo';
 
 // Index
-@import './components/header';
-@import './components/hero';
-@import './components/features';
-@import './components/products';
-@import './components/team';
-@import './components/clients';
-@import './components/footer';
+@import './components_index/pageHeader';
+@import './components_index/hero';
+@import './components_index/features';
+@import './components_index/products';
+@import './components_index/team';
+@import './components_index/clients';
+@import './components_index/pageFooter';
 
 // Modal
-@import './components/backdrop_modal';
+@import './components_index/backdrop_modal';
 
 // Porfolio
 @import './components_portfolio/container';
