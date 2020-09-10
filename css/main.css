@@ -315,12 +315,23 @@ span {
   color: #2196f3;
 }
 
+.color-logo-footer {
+  color: #ffffff;
+}
+
+.link-footer.footer-contacts {
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
 .link-nav {
   display: inline-block;
   height: 80px;
   padding-top: 32px;
   padding-bottom: 32px;
   font-weight: 500;
+  line-height: 16px;
   font-size: 14px;
   letter-spacing: 0.02em;
   color: #212121;
@@ -753,16 +764,6 @@ span {
   width: 88px;
   height: 45px;
   fill: #afb1b8;
-}
-
-.color-logo-footer {
-  color: #ffffff;
-}
-
-.link-footer.footer-contacts {
-  font-size: 14px;
-  letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
 }
 
 .address-footer {
