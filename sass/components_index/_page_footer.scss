@@ -1,4 +1,12 @@
 // Styles
+
+.link-footer.footer-contacts {
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+
 // Containers
 
 .address-footer {
@@ -18,11 +26,6 @@
 .info {
   display: flex;
   flex-direction: column;
-}
-
-.logo-container-footer {
-  display: inline-block;
-  margin-bottom: 20px;
 }
 
 .address-footer {
@@ -68,7 +71,6 @@
     margin-right: 10px;
   }
 }
-
 
 .footer-soclink-bg {
   display: inline-block;
